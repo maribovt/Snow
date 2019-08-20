@@ -52,6 +52,10 @@ section {
 	padding: 90px;
 }
 
+a {
+	outline: none;
+}
+
 
 .row {
 	display: flex;
@@ -411,8 +415,9 @@ blockquote cite {
 	cursor: pointer;
 }
 
-.clients-logo {
-	margin: 0 65px;
+.clients .clients-carousel img {
+	margin: 0 auto;
+	display: block;
 }
 
 /*latest-blog-start*/
